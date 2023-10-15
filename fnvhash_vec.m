@@ -12,7 +12,6 @@ for j=1:n
     for i = 1:length(msg(j,:))
        hash =  bitxor(hash,double(msg(j,i)));
 %        hash =  mod((hash * FNV_PRIME_32),2^31-1);
-%        hash =  hash * FNV_PRIME_32;
        hash =  mod((hash * FNV_PRIME_32),2^32-1);
     end
    hashes(j) = hash;
