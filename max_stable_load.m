@@ -27,16 +27,16 @@ xline(12,':','LineWidth',2,'DisplayName','','Color','#4DBEEE');
 xlim([0 105]);
 yline(0.8,'--');
 legend('','M3 (guaranteed)','M3 (measured)','','','Interpreter','latex','Location','SouthEast','Fontsize',14)
-axes('Position',[0.396214865673831 0.269411691824812 0.349713473088384 0.369828814504302]);
-box on;
-idx = q > 80 & q < 105;
-plot(q(idx),max_lambda(idx));
-hold on;
-plot(q(idx),(q(idx)./(q(idx)+numel(mu)-1)));
-hold on;
-scatter(q(idx),max_lambda(idx),'blue');
-grid on;
-set(gca,'gridlinestyle','--','MinorGridAlpha',0.5)
-axis tight;
-xline(100,'-.','LineWidth',2);
+% axes('Position',[0.396214865673831 0.269411691824812 0.349713473088384 0.369828814504302]);
+% box on;
+% idx = q > 80 & q < 105;
+% plot(q(idx),max_lambda(idx));
+% hold on;
+% plot(q(idx),(q(idx)./(q(idx)+numel(mu)-1)));
+% hold on;
+% scatter(q(idx),max_lambda(idx),'blue');
+% grid on;
+% set(gca,'gridlinestyle','--','MinorGridAlpha',0.5)
+% axis tight;
+% xline(100,'-.','LineWidth',2);
 % createrectangles(figure(2));
