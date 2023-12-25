@@ -11,8 +11,16 @@ The function returns an array indicating how many virtual servers should be assi
 A vectorized implementation function of the fnv-1a hash algorithm.
 - msg - column vector of identifiers to hash
 The function returns a column vector of hashed identifiers according to the order presented in the input vector.
-## compare_algorithms_stability
+## compare_algorithms_stability_LB
 A script file used to generate the output figure as presented in the evaluation section (Fig. 8).
+This script uses a random function and may yield a slightly different output for each run.
+## compare_algorithms_stability_storage
+A script file used to generate the output figure as presented in the evaluation section (Fig. 7).
+This script uses a random function and may yield a slightly different output for each run.
+## max_stable_load
+A script file used to generate the output figure as presented in the evaluation section (Fig. 6).
+## inspect_fairness_graph
+A script file used to generate the output figure as presented in the evaluation section (Fig. 5).
 # Usage
 To run compare_algorithms_stability.m, you must first download the file ['unique_keys_hashed_154M.mat'](https://technionmail-my.sharepoint.com/:u:/g/personal/yoav1013_campus_technion_ac_il/ESr9spAiIn9GoH1CJtUmT2ABU9wn0YKuv8hdPD2byUHy6g?e=QmhfQR) into the same directory of the scripts.
 
