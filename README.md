@@ -21,6 +21,7 @@ This script uses a random function and may yield a slightly different output for
 A script file used to generate the output figure as presented in the evaluation section (Fig. 6).
 ## inspect_fairness_graph
 A script file used to generate the output figure as presented in the evaluation section (Fig. 5).
+This script uses a random function and may yield a slightly different output for each run.
 # Usage
 To run compare_algorithms_stability.m, you must first download the file ['unique_keys_hashed_154M.mat'](https://technionmail-my.sharepoint.com/:u:/g/personal/yoav1013_campus_technion_ac_il/ESr9spAiIn9GoH1CJtUmT2ABU9wn0YKuv8hdPD2byUHy6g?e=QmhfQR) into the same directory of the scripts.
 
